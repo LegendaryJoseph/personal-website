@@ -48,3 +48,12 @@
     height: 100%;
     z-index: -1; /* Place it behind your other content */
   }
+  #medium-feed .p-4 {
+    background-color: #1f2937; /* Matches bg-gray-800 */
+  }
+  #medium-feed a {
+    color: #fff; /* Matches text-gray-100 */
+  }
+  #medium-feed a:hover {
+    color: #10b981; /* Matches hover:text-green-500 */
+  }
