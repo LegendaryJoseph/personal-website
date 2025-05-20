@@ -368,13 +368,10 @@
 
     <!--Footer part-->
 
-    <footer class=" bg-gray-900 max-w-screen-lg text-white py-12 mx-auto mt-16">
+    <footer class="bg-gray-900 max-w-screen-lg text-white py-6 mx-auto mt-8">
         <div class="container mx-auto px-4 flex flex-col items-center">
-
-            <h3 class="text-base font-semibold text-gray-100 mb-6">Quick Links:</h3>
-
-            <div class="w-full flex items-center justify-center space-x-4 uppercase">
-              
+            <h3 class="text-base font-semibold text-gray-100 mb-4">Quick Links:</h3>
+            <div class="w-full flex items-center justify-center space-x-2 uppercase">
                 <a href="#home" class="text-sm flex flex-col items-center hover:text-green-500">
                     <i class="fas fa-home text-base"></i>
                     <span>Home</span>
@@ -384,16 +381,13 @@
                     <span>Blog</span>
                 </a>
             </div>
-
-            <p class="mt-6 text-sm uppercase"> Joseph Irungu &dash; 2024 &COPY;</p>
-
-        </div>
+            <p class="mt-4 text-sm uppercase">Joseph Irungu ‐ <span id="year"></span> ©</p>
+         </div>
     </footer>
 
     <!--JS files-->
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="medium-feed.js"></script>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="scripts/particles.js"></script>
     <script src="https://kit.fontawesome.com/8022519056.js" crossorigin="anonymous"></script>
